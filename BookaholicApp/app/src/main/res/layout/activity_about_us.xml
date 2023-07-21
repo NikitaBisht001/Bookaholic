@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/abt"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:text="About"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/abtc"
+        android:layout_below="@+id/abt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="-3dp"
+        android:padding="10dp"
+        android:text= "Bookaholic is an android application that connects book lovers who want to lend and borrow books. Whether you are looking for a new read or want to share your favorite books with others, Bookaholic makes it easy and convenient. You can browse through a variety of genres and request to borrow any book that interests you. You can also lend your own books to other users and earn coins. The app aims to promote a culture of reading and sharing among book enthusiasts. If you love books and want to discover new books download Bookaholic today and join the community of book lovers. Bookaholic is developed by a team who wanted to create a platform that would make reading more accessible and enjoyable. We are always open to feedback and suggestions, so feel free to contact us on support@bookaholic.com.  We hope you enjoy using Bookaholic."
+
+        android:textSize="15dp"
+        android:textStyle="normal"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="my_text" />
+    <string name="app_name">BookaholicApp</string>
+    <string name="desc">desc</string>
+    <string name="search_here">search here</string>
+    <string name="sign_up">Sign up</string>
+    <string name="username">Username</string>
+    <string name="email_id">Email id</string>
+    <string name="select">Select City</string>
+    <string name="OpenDrawer">Open navigation drawer </string>
+    <string name="CloseDrawer">close navigation drawer</string>
+    <array name="title">
+        <item>Twilight</item>
+        <item>The Twilight Saga : NEW MOON</item>
+        <item>The Twilight Saga : ECLIPSE</item>
+        <item>The Twilight Saga : BREAKING DAWN</item>
+        <item>The Notebook</item>
+        <item>A Walk To Remember</item>
+        <item>The Lucky One</item>
+        <item>See Me</item>
+    </array>
+
+</resources>

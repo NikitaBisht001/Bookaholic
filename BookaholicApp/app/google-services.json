@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "115906533605",
+    "project_id": "bookaholic-89e23",
+    "storage_bucket": "bookaholic-89e23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115906533605:android:e9a92c6ff9da61f8c11c0c",
+        "android_client_info": {
+          "package_name": "com.internshla.bookaholicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115906533605-p8kfl1lj84i0k6ofk7gnm5g86feeurhg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.internshla.bookaholicapp",
+            "certificate_hash": "c3c93f28d8de978749cbfe641955fdee49b58dd6"
+          }
+        },
+        {
+          "client_id": "115906533605-5bufldo8mqoi8cjm8a436d6cpsah9bu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1ON1cCkUN5mNUqoOWPqlwofBbdcxs2HA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115906533605-5bufldo8mqoi8cjm8a436d6cpsah9bu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BookaholicApp"  parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <!-- provided green color to the ActionBar -->
+        <item name="colorPrimary">#BC8556</item>
+        <item name="colorPrimaryDark">#BC8556</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+    <!-- Action Bar Styles -->
+    <style name="ActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+</resources>

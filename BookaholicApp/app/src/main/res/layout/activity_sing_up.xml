@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/book1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sing_up">
+
+
+    <TextView
+        android:id="@+id/signuptitle"
+        android:layout_width="381dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="@string/sign_up"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="502dp"
+        android:layout_below="@id/signuptitle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="9dp"
+        android:background="#BC8556"
+        app:cardCornerRadius="50dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="149dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/home"
+            tools:context=".MainActivity">
+
+
+            <EditText
+
+                android:id="@+id/username"
+                android:layout_width="352dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:drawablePadding="20dp"
+                android:hint="@string/username"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:id="@+id/emailid"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/username"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:drawablePadding="20dp"
+
+
+                android:hint="@string/email_id"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/city"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="5dp"
+                android:drawableStart="@drawable/ic_baseline_info_24"
+                android:drawablePadding="20dp"
+                android:hint="Create Password"
+                android:padding="15dp"
+
+                android:password="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:id="@+id/confirmpassword"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/password"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:drawableStart="@drawable/ic_baseline_check_circle_24"
+                android:drawablePadding="20dp"
+                android:hint="Confirm Password"
+                android:padding="15dp"
+                android:password="true"
+
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:id="@+id/phonenum"
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/emailid"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:drawableStart="@drawable/ic_baseline_local_phone_24"
+                android:drawablePadding="20dp"
+                android:hint="Phone Number"
+                android:padding="15dp"
+                android:phoneNumber="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+
+                />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/confirmpassword"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="148dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:background="@color/black"
+                android:shadowColor="@color/white"
+                android:text="REGISTER"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/state"
+                android:layout_width="413dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phonenum"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-24dp"
+                android:text="State"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:drawableStartCompat="@drawable/ic_baseline_places_on_24" />
+
+            <EditText
+                android:id="@+id/dB"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phonenum"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="0dp" />
+
+            <TextView
+                android:layout_width="391dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/state"
+                android:layout_alignParentEnd="true"
+
+                android:layout_centerInParent="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-4dp"
+                android:text="City"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:drawableStartCompat="@drawable/ic_baseline_location_city_24" />
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dB"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="28dp"
+                android:completionHint="Select a city"
+                android:completionThreshold="1" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

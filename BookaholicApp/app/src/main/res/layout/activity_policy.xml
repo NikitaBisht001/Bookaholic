@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativelayout"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pageheading"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:text="Privacy and Policies"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phrg"
+            android:layout_below="@+id/pageheading"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="Welcome to Bookaholic, the app that helps you to lend and borrow books. This policy page explains how we collect, use, protect your personal information when you use our app and how our coin system works .
+"
+            android:textSize="13dp"
+            android:textStyle="normal"
+            />
+
+        <TextView
+            android:id="@+id/next1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phrg"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="What information do we collect?"
+
+
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/next2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="• We collect information that you provide to us when you create an account, such as your name, email,phone number , city and state. We also collect information about the books you lend or borrow, such as the title, author, genre, and condition of the book."
+
+            android:textSize="10dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/next3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="How do we use your information?"
+
+            android:textSize="16dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/next4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="• We use your information to provide you with our app's features and services such as  updates about your books and account. We also use your information to improve our app's functionality and performance."
+
+            android:textSize="10dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/next5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next4"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="How do we protect your information?"
+
+            android:textSize="16dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/next6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next5"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="• We take reasonable measures to protect your information from unauthorized access, use, disclosure, modification, or destruction. We use password protection, and other security technologies to safeguard your information."
+
+            android:textSize="10dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/next7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next6"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="How do the coin system works?"
+
+
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+
+
+        <TextView
+            android:id="@+id/next8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next7"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="• The coin system is designed to encourage users to share their books with others and to reward them for doing so. Here is how it works:
+		○ When you register on our app, you will get 100 coins as a sign-up bonus.
+		○ If you lend a book to another user, you will earn 50 coins for a month. If the lending period exceeds a month, you will earn 25 coins per month thereafter. You can take back your book within this period after one month.
+		○ If you borrow a book from another user, you will pay 50 coins for a month. If the borrowing period exceeds a month, you will pay 10 coins per week thereafter. You can keep the book for up to 15 days.
+		○ If you return the book on time, you will get 25 coins back as a reward. If you damage the book, you will pay 15 coins as a penalty.
+"
+
+
+            android:textSize="10dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/next9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next8"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="Who do we share your information with?"
+
+
+
+
+            android:textSize="16dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/next10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next9"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="• We do not sell, rent, or trade your information with any third parties for their own marketing purposes. We may share your information with third parties who provide services to us or on our behalf, such as hosting provider and  customer support providers. These third parties are bound by contractual obligations to keep your information confidential and secure and to use it only for the purposes for which we disclose it to them. You can control what information you share with other users through your account settings. We may also share your information if we are required by law or legal process, if we believe it is necessary to protect our rights or property or the rights or property of others, or if we are involved in a merger, acquisition, or sale of our business or assets."
+
+
+
+
+            android:textSize="10dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/next11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next10"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="What are your choices and rights?"
+
+
+
+
+            android:textSize="16dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/next12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next11"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="• You have the right to access, update, correct, delete, or restrict the use of your information at any time. You can do so by logging into your account and modifying your profile or preferences. You can also contact us at support@bookaholic.com if you need any assistance or have any questions about your information. You can also opt out of receiving promotional emails from us by clicking on the unsubscribe link in any email we send you."
+
+
+
+
+            android:textSize="10dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/next13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next12"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="How do we update this policy?"
+
+
+
+
+
+            android:textSize="16dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/next14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next13"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="• We may update this policy from time to time to reflect changes in our app's features or services or in applicable laws or regulations. We will notify you of any material changes by posting a notice on our app or by sending you an email. Your continued use of our app after we post or send a notice will constitute your acceptance of the updated policy. We encourage you to review this policy periodically to stay informed about how we collect, use, and protect your information."
+
+
+
+
+
+            android:textSize="10dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/next15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next14"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="By using our app, you agree to follow our rules . We reserve the right to suspend or terminate your account if you violate our policy or misuse our app. We hope you enjoy using our app and reading more books!"
+
+
+            android:textSize="10dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/next16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next15"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="How can you contact us?"
+
+
+
+            android:textSize="16dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/next17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next16"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="• If you have any questions or feedback about this policy or our app in general, please feel free to contact us at support@bookaholic.com or write to us at:
+" android:textSize="10dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/next18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next17"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="Bookaholic Inc."
+            android:textSize="10dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/next19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next18"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="WIT (CSE department)"
+            android:textSize="10dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/next20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next19"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="10dp"
+            android:text="Suddhowala ,Dehradun."
+            android:textSize="10dp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+</ScrollView>
+
+
+
+
+
+
